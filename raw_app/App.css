@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #0bb;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+.addTodo{
+  cursor: pointer;
+  padding: 5px;
+  line-height: 17px;
+  border-width: 2px;
+  border-style: solid;
+  color: rgba(0,0,0, 0.9);
+  border-color: rgba(20,80,80, 0.4);
+    font-weight: bold;
+  cursor: pointer;
+  background-color: #0bb;
+  border-left: none;
+  margin-bottom: -10px;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.inputter {
+  width: 160px;
+  border: none;
+  color: white;
+  text-decoration-color: white;
+  background-color: rgba(0,0,0,0.6);
+  border-top: 2px solid rgba(73, 204, 249, 0.6);
+  border-bottom: 2px solid rgba(73, 204, 249, 0.6);
+  padding: 5px;
+  line-height: 17px;
+  margin-top: -10px;
+}
+
+.inputter:focus {
+  color: white;
+  outline: none;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 0.6);
+  border-bottom: 2px solid rgba(73, 204, 249, 0.6);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+.todo{
+  text-align: left;
+  width: 50%;
+  margin: 0px auto;
+}
+.remTodo{
+  
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  color: rgba(0,0,0, 0.9);
+  border-color: rgba(20,80,80, 0.4);
+  line-height: 1.5;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #0bb;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.editTodo{
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  color: rgba(0,0,0, 0.6);
+  border-color: rgba(20,80,80, 0.4);
+  line-height: 1.5;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+.itemWrap{
+  width: 50%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(100,180,180,0.3);
+  text-align: left;
+}
+.stable{
+  padding-bottom: 100px;
+}
+.task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
